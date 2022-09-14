@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_margin="8dp"
+    >
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:src="@drawable/whatsapp"
+    android:id="@+id/userImage"
+    android:layout_centerVertical="true"
+    android:layout_alignParentStart="true"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/userImage"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/Username"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tapto Strart"
+            android:id="@+id/resendmsg"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
